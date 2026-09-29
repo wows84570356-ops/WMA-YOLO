@@ -1,0 +1,29 @@
+# bridge20: 7,037 routine-inspection photographs of 188 bridges, 20 classes, split 70:10:20 by bridge.
+# The images are proprietary and are not distributed; the split lists are in bridge20_splits/.
+# Class 5 is called "rebar corrosion" inside the trained weights and "rebar exposure" in the paper.
+path: /path/to/bridge20      # a folder with {train,val,test}/{images,labels}
+train: train/images
+val: val/images
+test: test/images
+nc: 20
+names:
+  0: crack
+  1: corrosion
+  2: paint degradation
+  3: lime
+  4: delamination
+  5: rebar corrosion
+  6: floating
+  7: pavement crack
+  8: poor drainage
+  9: bearing mortar damage
+  10: joint damage
+  11: pavement damage
+  12: water accumulation/leakage
+  13: deformation
+  14: appurtenant structures damage
+  15: concrete deformation/defect
+  16: bearing damage
+  17: sediment accumulation
+  18: bolt falling off
+  19: movement of abutment

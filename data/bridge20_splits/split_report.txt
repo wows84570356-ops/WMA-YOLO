@@ -1,0 +1,27 @@
+bridge20 split  seed=0  ratios={'train': 0.7, 'val': 0.1, 'test': 0.2}
+bridges: train=130, val=21, test=37  (total 188)
+images:  train=4921 (bg 50), val=705 (bg 2), test=1411 (bg 11)
+
+id class                           total |  train   val  test |  val% test% | bridges tr/va/te
+ 0 crack                            8963 |   5838   775  2350 |  8.6% 26.2% | 124/19/35
+ 1 corrosion                        5459 |   3821   534  1104 |  9.8% 20.2% | 78/19/24
+ 2 paint degradation                3612 |   2616   387   609 | 10.7% 16.9% | 69/13/19
+ 3 lime                             3921 |   2544   404   973 | 10.3% 24.8% | 117/20/32
+ 4 delamination                      892 |    628    86   178 |  9.6% 20.0% | 86/16/31
+ 5 rebar corrosion                  1569 |   1042   167   360 | 10.6% 22.9% | 90/14/20
+ 6 floating                          855 |    602    91   162 | 10.6% 18.9% | 83/14/26
+ 7 pavement crack                    469 |    326    42   101 |  9.0% 21.5% | 63/10/16
+ 8 poor drainage                     178 |    124    23    31 | 12.9% 17.4% | 31/8/11
+ 9 bearing mortar damage              62 |     43     6    13 |  9.7% 21.0% | 13/6/3
+10 joint damage                      173 |    121    20    32 | 11.6% 18.5% | 37/5/18
+11 pavement damage                   124 |     88    11    25 |  8.9% 20.2% | 32/7/16
+12 water accumulation/leakage        813 |    574    88   151 | 10.8% 18.6% | 92/13/19
+13 deformation                        13 |      9     1     3 |  7.7% 23.1% | 3/1/2
+14 appurtenant structures damage     126 |     98    11    17 |  8.7% 13.5% | 22/5/9
+15 concrete deformation/defect       227 |    159    23    45 | 10.1% 19.8% | 54/7/17
+16 bearing damage                     55 |     44     1    10 |  1.8% 18.2% | 3/1/3
+17 sediment accumulation              39 |     29     3     7 |  7.7% 17.9% | 2/3/6
+18 bolt falling off                  106 |     75     9    22 |  8.5% 20.8% | 12/5/3
+19 movement of abutment               13 |      9     2     2 | 15.4% 15.4% | 3/1/1
+
+classes missing from some split: none
